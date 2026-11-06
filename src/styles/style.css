@@ -1,0 +1,37 @@
+@import url("./global.css");
+/* Header */
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--color--purple900);
+    padding: 15px 0;
+    
+
+}
+
+.Menu{
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+
+ .Menu li a{
+    text-decoration: none;
+    color: var(--color-white);
+    text-transform: uppercase;
+    font-family: var(--font-title);
+    font-size: 20px;
+   
+ }
+  .btnLogin{
+    text-decoration: none;
+    color: var(--color-white);
+    background-color: var(--color--purple500);
+    font-family: var(--font-title);
+    font-size: 20px;
+    padding: 5px 30px;
+    border-radius: 5px;
+  }
+
