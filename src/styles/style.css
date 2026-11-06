@@ -34,4 +34,10 @@ header {
     padding: 5px 30px;
     border-radius: 5px;
   }
+  main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
 
